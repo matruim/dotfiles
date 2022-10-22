@@ -1,8 +1,13 @@
+# This is Git's per-user configuration file.
 [user]
-  name = Jeff Geerling
-  email = geerlingguy@mac.com
+	name = Jared Good
+	email = jared_danell@yahoo.com
+	signingkey = 42DF1E0EFDABD8FF
+# Please adapt and uncomment the following lines:
+#	name = Jared Good
+#	email = Jared.Good@churchofjesuschrist.org
 [core]
-  editor = vi
+  editor = code --wait
   excludesfile = ~/.gitignore
   autocrlf = input
 [color]
@@ -32,3 +37,11 @@
   l = log --graph --pretty=format:"%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset" --abbrev-commit
 [pull]
 	rebase = true
+[fetch]
+	prune = true
+[dif]
+	colorMoved = zebra
+[rerere]
+	enabled = true
+[commit]
+	gpgsign = true

@@ -60,7 +60,7 @@ defaults write NSGlobalDomain NSAutomaticQuoteSubstitutionEnabled -bool false
 defaults write NSGlobalDomain NSAutomaticDashSubstitutionEnabled -bool false
 
 # Set background to Temple Picture in Photos App
-osascript -e 'tell application "Finder" to set desktop picture to POSIX file "/Users/matruim/Pictures/Photos Library.photoslibrary/originals/5/55FFEAB8-DDDD-4D4F-9151-5E8BAD93C883.jpeg"'
+osascript -e 'tell application "Finder" to set desktop picture to POSIX file "/Users/matruim/Pictures/Temples/SanDiego.jpeg"'
 
 ###############################################################################
 # Trackpad, mouse, keyboard, Bluetooth accessories, and input                 #

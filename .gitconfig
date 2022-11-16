@@ -1,6 +1,6 @@
 # This is Git's per-user configuration file.
 [user]
-	name = Jared Good
+	name = Jared
 	email = jared_danell@yahoo.com
 	signingkey = D11ACE4D64069495
 # Please adapt and uncomment the following lines:
@@ -43,3 +43,7 @@
 	colorMoved = zebra
 [rerere]
 	enabled = true
+[commit]
+	gpgsign = true
+[gpg]
+	program = gpg

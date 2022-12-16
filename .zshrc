@@ -55,7 +55,8 @@ function gsync() {
 }
 
 # Python Aliases
-alias python=/usr/local/bin/python3
+alias python=/opt/homebrew/opt/python@3.10/libexec/bin/python
+alias pip=/opt/homebrew/opt/python@3.10/libexec/bin/pip
 
 # Tell homebrew to not autoupdate every single time I run it (just once a week).
 export HOMEBREW_AUTO_UPDATE_SECS=604800

@@ -54,6 +54,9 @@ function gsync() {
  git push origin "$1"
 }
 
+# Python Aliases
+alias python=/usr/local/bin/python3
+
 # Tell homebrew to not autoupdate every single time I run it (just once a week).
 export HOMEBREW_AUTO_UPDATE_SECS=604800
 

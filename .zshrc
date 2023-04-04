@@ -9,7 +9,7 @@
 unsetopt nomatch
 
 # Custom $PATH with extra locations.
-export PATH=$HOME/Library/Python/3.8/bin:/opt/homebrew/bin:/usr/local/bin:/usr/local/sbin:$HOME/bin:/usr/local/git/bin:$HOME/.composer/vendor/bin:$PATH
+export PATH=$HOME/Library/Python/3.9/bin:/opt/homebrew/bin:/usr/local/bin:/usr/local/sbin:$HOME/bin:/usr/local/git/bin:$HOME/.composer/vendor/bin:$PATH
 
 # Include alias file (if present) containing aliases for ssh, etc.
 if [ -f ~/.aliases ]
@@ -55,8 +55,8 @@ function gsync() {
 }
 
 # Python Aliases
-alias python=/opt/homebrew/opt/python@3.10/libexec/bin/python
-alias pip=/opt/homebrew/opt/python@3.10/libexec/bin/pip
+alias python=/opt/homebrew/opt/python@3.11/libexec/bin/python
+alias pip=/opt/homebrew/opt/python@3.11/libexec/bin/pip
 
 # Tell homebrew to not autoupdate every single time I run it (just once a week).
 export HOMEBREW_AUTO_UPDATE_SECS=604800

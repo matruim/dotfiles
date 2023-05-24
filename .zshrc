@@ -9,7 +9,7 @@
 unsetopt nomatch
 
 # Custom $PATH with extra locations.
-export PATH=$HOME/Library/Python/3.9/bin:/opt/homebrew/bin:/usr/local/bin:/usr/local/sbin:$HOME/bin:/usr/local/git/bin:$HOME/.composer/vendor/bin:$PATH
+export PATH=/opt/homebrew/sbin:/usr/local/opt/python/libexec/bin:/opt/homebrew/bin:/usr/local/bin:/usr/local/sbin:$HOME/bin:/usr/local/git/bin:$HOME/.composer/vendor/bin:$PATH
 
 # Include alias file (if present) containing aliases for ssh, etc.
 if [ -f ~/.aliases ]
@@ -76,4 +76,4 @@ function denter() {
 
  docker exec -it $1 bash
  return 0
-}
+}export PATH="/opt/homebrew/sbin:$PATH"

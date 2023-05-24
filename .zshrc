@@ -76,4 +76,4 @@ function denter() {
 
  docker exec -it $1 bash
  return 0
-}export PATH="/opt/homebrew/sbin:$PATH"
+}
